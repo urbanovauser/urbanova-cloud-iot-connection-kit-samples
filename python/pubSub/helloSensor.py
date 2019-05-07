@@ -69,8 +69,9 @@ time.sleep(2)
 # Publish `Hello Sensor ${sensorID}`to Urbanova Cloud once per second
 loopCount = 0
 while True:
-  message['message'] = 'Hello Sensor ' + deviceId # add message element
-  message['sequence'] = loopCount # add message element
+  message = {} # init empty message obj
+  message['message'] = 'Hello Sensor ' + deviceId # add `message` element
+  message['sequence'] = loopCount # add `sequence` element
   messageJson = json.dumps(message) # convert to json
   ucIoTDeviceClient.publish(deviceId, messageJson, 1) # publish to urbanova cloud
   print('Published to %s: %s\n' % (deviceId, messageJson)) # print console
