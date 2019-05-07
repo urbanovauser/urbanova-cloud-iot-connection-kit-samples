@@ -18,15 +18,15 @@ _Note: Steps below assumes `git` is installed on the device and can be used to f
 
 ##### Step 1: Unzip the connection kit on your IoT device (Linux/Python)
 
-    ```$ unzip UrbanovaIotConnectionKit.zip```
+    $ unzip UrbanovaIotConnectionKit.zip
 
 ##### Step 2:  Add execution permissions to the init.sh script
 
-    ```$ chmod +x init.sh```
+    $ chmod +x init.sh
 
 ##### Step 3: Run the init.sh script
 
-    ```$ ./init.sh```
+    $ ./init.sh
 
 The init script will download the AWS IoT SDK (this is required for secure IoT MQTT client connection to Urbanova Cloud using TLSv1.2 Mutual Authentication), and the samples contained in this repo with `git clone ...`.  The init script will then automatically start the `urbanovacloud/iotsdk/samples/helloSensor.py` example.
 
