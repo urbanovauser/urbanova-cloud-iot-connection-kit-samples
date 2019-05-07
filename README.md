@@ -2,7 +2,7 @@
 
 Samples are provided as part of the Urbanova Cloud IoT Connection Kit to provide developers with examples of how to use the Urbanova IoT SDK to connect their devices and publish/subsribe to Urbanova Cloud projects.
 
-To experiment with these, samples you will need an Urbanova Cloud Account (currently in Alpha).
+To experiment with these samples you will need an Urbanova Cloud Account (currently in Alpha).
 
 ### Getting Started
 
