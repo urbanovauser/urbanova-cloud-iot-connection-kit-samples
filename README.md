@@ -12,7 +12,7 @@ To experiment with these samples you will need an Urbanova Cloud Account (curren
 
 * From the IoT Data Source configuration options, choose Connection Kit, and click the 'Download Urbanova Cloud IoT Connection Kit for Linux/Python' link.
 
-* This connection kit provides the deviceId, endpoint url, keys and certificates required to connect and IoT device to Urbanova Cloud using the Urbanova IoT SDK.  To configure and test device connectivity and message publishing to your Urbanova Project, perform the following steps:
+* The connection kit provides the deviceId, endpoint url, keys and certificates required to securely connect your IoT edge device to Urbanova Cloud using the Urbanova IoT SDK.  To configure and test device connectivity and message publishing to your Urbanova Project, perform the following steps:
 
 _Note: Steps below assumes `git` is installed on the device and can be used to fetch dependencies from Urbanova and AWS GitHub repos._
 
